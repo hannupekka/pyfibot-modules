@@ -4,6 +4,7 @@ import urllib2
 from bs4 import BeautifulSoup
 
 def command_lannista(bot, user, channel, args):
+	"""Fetches discouragements from lannistajakuha.com and discourages ppl"""
 	url = "http://lannistajakuha.com/random"
 
 	f = urllib2.urlopen(url)
